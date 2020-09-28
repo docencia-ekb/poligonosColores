@@ -1,2 +1,2 @@
-# poligonosColores
-poligonosColores
+# Poligonos
+Dibujar polígonos de colores en canvas
