@@ -1,0 +1,111 @@
+
+body{
+    font-family: Verdana, Arial, Helvetica;
+    height: 100%;
+    background: lightgray;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: green;
+}
+a:visited {
+  color: olive;
+}
+a:active  {
+  color: lightgreen;
+}
+a:hover {
+  color: red;
+}
+#contenedor{
+ border: 5px solid white;
+ margin: 10px;
+ padding: 10px;
+ display: flex;
+ // align-items: center;
+ // justify-content: space-around;
+}
+.contenedor{
+ border: 5px solid white;
+ margin: 10px;
+ padding: 10px;
+ display: flex;
+ // align-items: center;
+ // justify-content: space-around;
+ width: 450px;
+ color: purple;
+
+ font-weight: bold;
+}
+
+.rojo{
+color: red;
+}
+.azul{
+color: blue;
+}
+
+.caja{
+width: 250px;
+// width: 40%;
+height: 350px;
+background: yellow;
+margin: 15px;
+padding: 10px;
+}
+
+//nuevos estilos
+
+.seguido{
+  display: flex;
+}
+.explica{
+  position: absolute; left: 515px; top: 110px;
+  width: 150px;
+  text-align: left;
+  color: gray;
+}
+.titExplica{
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+.explicaGral{
+  font-size: 0.8em;
+  line-height: 1em;
+  font-weight: lighter;
+}
+
+.contenedorDos{
+ border: 5px solid white;
+ margin: 10px;
+ padding: 10px;
+ display: flex;
+ color: grey;
+}
+.contenedorTres{
+ border: 5px solid white;
+ margin: 10px;
+ padding: 10px;
+
+background-color: gray;
+color: white;
+text-align: center;
+}
+.alinDere{
+  text-align: right;
+  margin-right: 10px;
+}
+.titulo{
+  font-family: Georgia, Times, serif;
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: bold;
+}
+.cursi{
+  font-style: italic;
+  font-size: 0.9em;
+  color: purple;
+}
